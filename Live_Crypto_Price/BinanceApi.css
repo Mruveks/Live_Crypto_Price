@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: hidden;
+  }
+  
+.api{
+    border: 1px solid black;
+    margin: 4rem auto;
+    display: table;
+    width: 60%;
+    box-shadow: 0px 0px 43px 17px black;
+}
+.apirow-header{
+    display: table-row;
+    background: linear-gradient(-20deg, #51a83b, #266e88, #743967, #2e5d4d);
+}
+.apirow{
+    display: table-row;
+    background: linear-gradient(-20deg, #2e5d4d, #743967, #266e88, #51a83b);
+    
+}
+.name,.ticker{
+    display: table-cell;
+    border: 1px solid black;
+    font-size: 50px; 
+    text-align: center; 
+    vertical-align: middle; 
+    line-height: 80px;
+    width: 50%;
+}
